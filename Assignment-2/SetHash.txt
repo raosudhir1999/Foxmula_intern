@@ -1,0 +1,32 @@
+package java_project_internship;
+
+import java.io.*;
+import java.util.*;
+
+public class SetHash {
+
+	
+	public static void main(String []args)
+	{
+		int n=5;
+		Set<Integer> arr = new HashSet<Integer>(n);
+		Scanner sc=new Scanner(System.in);
+		
+		for(int i=0;i<n;i++)
+		{
+			arr.add(sc.nextInt());
+		}
+		
+		 boolean retval = arr.contains(5); 
+	        
+	      if (retval == true) {
+	         System.out.println("Element 12 is contained");
+	      } else {
+	         System.out.println("Element 12 is not contained");
+	      }
+		
+		System.out.println("The value of set is"+arr);
+		
+	
+	}
+}
