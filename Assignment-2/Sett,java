@@ -3,7 +3,7 @@ package java_project_internship;
 import java.io.*;
 import java.util.*;
 
-public class SetHash {
+public class Sett {
 
 	
 	public static void main(String []args)
